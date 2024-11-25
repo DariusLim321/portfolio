@@ -500,6 +500,12 @@ body:not(.user-is-tabbing) a:focus {
   }
 }
 
+.work__image {
+  width: 100%;  /* This makes the image fill the container */
+  height: auto; /* This keeps the aspect ratio intact */
+}
+
+
 @media(max-width: 900px) {
   .work__code {
       height: 4rem;
